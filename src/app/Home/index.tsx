@@ -14,7 +14,7 @@ const FILTER_STATUS: FilterStatus[] = [FilterStatus.PENDING, FilterStatus.DONE]
 export function Home() {
   const [filter, setFilter] = useState(FilterStatus.PENDING)
   const [description, setDescription] = useState("")
-  const [items, setItems] = useState<ItemStorage[]>([])
+  const [items, setItems] = useState<ItemsStorage[]>([])
 
   async function handleAdd() {
     if (!description.trim()) {

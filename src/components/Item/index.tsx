@@ -3,7 +3,7 @@ import { Trash2 } from "lucide-react-native"
 
 import { styles } from "./styles"
 import { FilterStatus } from "@/types/FilterStatus"
-import { StatusIcon } from "@/components/StatusIcon/Index"
+import { StatusIcon } from "@/components/StatusIcon"
 
 type ItemData = {
     status: FilterStatus
